@@ -22,7 +22,7 @@ Deliverable 1: Use Resampling Models to Predict Credit Risk
 Oversampling
 RandomOverSampler Model randomly selects from the minority class and adds it to the training set until both classifications are equal. The results classified 51,366 records each as High Risk and Low Risk.
 
-oversamplecount
+![Oversample count](https://user-images.githubusercontent.com/108476566/204307636-ec39f634-7cab-4ff8-a8b6-8e7a96da6c3e.png)
 
 Balanced accuracy score: 64%.
 oversampleacc
