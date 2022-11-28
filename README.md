@@ -88,4 +88,5 @@ The balanced accuracy score increased to 93.2% with this model.
 
 
 Summary
+
 In reviewing all six models, the EasyEnsembleClassifer model yielded the best results (EasyEnsembleClassifer: 93.2% accuracy, 9% precision, 92% recall, and 16% F1 Score) with an accuracy rate of 93.2% and a 9% precision rate when predicting "High Risk candidates. 
