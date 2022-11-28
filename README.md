@@ -53,7 +53,8 @@ Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 Combination Sampling
 SMOTEENN (Synthetic Minority Oversampling Technique + Edited NearestNeighbors) Model combines aspects of both oversampling and undersampling. The model classified 68,460 records as High Risk and 62,011 as Low Risk.
 
-SMOTEENNcount
+![Smoteen](https://user-images.githubusercontent.com/108476566/204321671-ed18cc6b-acb1-49c8-b972-262b4f93d560.png)
+
 
 The balanced accuracy score improved to 64.5% when using a combined sampling model.
 SMOTEENNacc
