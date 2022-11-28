@@ -37,10 +37,8 @@ Balanced accuracy score: 65%.
 Undersampling
 ClusterCentroids Model, an algorithm that identifies clusters of the majority class to generate synthetic data points that are representative of the clusters. The model classified 260 records each as High Risk and Low Risk.
 
+![Cluster](https://user-images.githubusercontent.com/108476566/204319799-5e56a2e6-9de8-46c8-944a-51d1e638b875.png)
 
-
-
-undersamplecount
 
 Balanced accuracy score was lower than the oversampling models at 54.5%.
 underacc
