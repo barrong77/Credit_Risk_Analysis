@@ -29,11 +29,11 @@ Balanced accuracy score: 65%.
 ![balanced accuracy score](https://user-images.githubusercontent.com/108476566/204317225-6f7e6182-243a-410d-8010-81a6399a3047.png)
 
 
-The "High Risk" precision rate was only 1% with the recall at 66% giving this model an F1 score of 2%.
 "Low Risk" had a precision rate of 100% and recall at 62%.
-oversamplecm
 
-oversampleclass
+![predicted low risk](https://user-images.githubusercontent.com/108476566/204317952-03a7644a-3268-45c3-afc6-638e36db7896.png)
+
+
 
 SMOTE (Synthetic Minority Oversampling Technique) Model, like RandomOverSampler increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection.
 
