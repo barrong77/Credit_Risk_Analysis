@@ -61,51 +61,31 @@ The balanced accuracy score improved to 51% when using a combined sampling model
 ![calculated balance accuracy](https://user-images.githubusercontent.com/108476566/204322323-add194c9-6e9f-4535-8e2b-698cada0e388.png)
 
 
-The "High Risk" precision rate did not improve was only 1%, however the recall increased to 72% giving this model an F1 score of 2%.
-"Low Risk" still showed a precision rate of 100% with the recall at 57%.
-SMOTEENNcm
-
-SMOTEENNclass
-
 Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-Compare two new Machine Learning models that reduce bias to predict credit risk. The models classified 51,366 as High Risk and 246 as Low Risk.
+Compare two new Machine Learning models that reduce bias to predict credit risk. The models classified 246 as High Risk and 51,366 as Low Risk.
 
-Balancedcount
+![machine learning](https://user-images.githubusercontent.com/108476566/204323461-013e1674-7092-41a1-a78d-65527936d831.png)
+
 
 BalancedRandomForestClassifier Model, two trees of the same size and equal size to the minority class are constructed to represent one for the majority class and one for the minority class.
 
 The balanced accuracy score increased to 78.9% for this model.
-balanceacc
+
+![sklearn](https://user-images.githubusercontent.com/108476566/204324052-4dc53bfb-f1c0-4d98-8a24-b743b2cad4fd.png)
+
 
 The "High Risk precision rate increased to 3% with the recall at 70% giving this model an F1 score of 6%.
 "Low Risk" still had a precision rate of 100% with the recall at 87%.
-The top feature by importance was "total_rec_prncp" at 7.9% of the total.
-balancecm
 
-balanceclass
-
-balancefeature
+![predicted high risk](https://user-images.githubusercontent.com/108476566/204324601-55bcffa6-dd69-4705-9e0b-4c92813a3ac2.png)
 
 EasyEnsembleClassifier Model, a set of classifiers where individual decisions are combined to classify new examples.
 
 The balanced accuracy score increased to 93.2% with this model.
-easyeacc
 
-The "High Risk precision rate increased to 9% with the recall at 92% giving this model an F1 score of 16%.
-"Low Risk" still had a precision rate of 100% with the recall now at 94%.
-easycm
+![EasyEnsemble](https://user-images.githubusercontent.com/108476566/204325478-c902f743-ebf6-4f84-a232-db5955d32214.png)
 
-easyclass
+
 
 Summary
-In reviewing all six models, the EasyEnsembleClassifer model yielded the best results with an accuracy rate of 93.2% and a 9% precision rate when predicting "High Risk candidates. The sensitivity rate (aka recall) was also the highest at 92% compared to the other models. The result for predicting "Low Risk" was also the highest with the sensitivity rate at 94% and an F1 score of 97%. Therefore, if a model needed to be recommended to perform this type of analysis, then this one would be the clear choice.
-
-Ranking of models in descending order based on "High Risk" results:
-
-EasyEnsembleClassifer: 93.2% accuracy, 9% precision, 92% recall, and 16% F1 Score
-BalancedRandomForestClassifer: 78.9% accuracy, 3% precision, 70% recall and 6% F1 Score
-SMOTE: 65.2% accuracy, 1% precision, 61% recall and 2% F1 Score
-SMOTEENN: 64.5% accuracy, 1% precision, 72% recall and 2% F1 Score
-RandomOverSampler: 64.0% accuracy, 1% precision, 66% recall and 2% F1 Score
-ClusterCentroids: 54.5% accuracy, 1% precision, 69% recall and 1% F1 Score
-A side note that should be considered is that original dataset had 99% of the applications classified as "Low Risk" with only 1% of the data classified in the "High Risk" category. This may skew the results greatly as there is a risk that the Machine Learning algorithms are creating clusters drawing from too small of a dataset of actual "High Risk" applications. This margin of risk might not be something that banks would be comfortable accepting.
+In reviewing all six models, the EasyEnsembleClassifer model yielded the best results (EasyEnsembleClassifer: 93.2% accuracy, 9% precision, 92% recall, and 16% F1 Score) with an accuracy rate of 93.2% and a 9% precision rate when predicting "High Risk candidates. 
