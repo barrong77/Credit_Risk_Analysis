@@ -14,13 +14,13 @@ The original dataset contained loan applications in Q1 of 2019. The "loan status
 ![data count](https://user-images.githubusercontent.com/108476566/204305069-c18aec77-3476-486f-8e90-e40041218107.png)
 
 
-Using the 75/25% method to split the data for training vs. testing, 51,366 "low risk" and 246 "high risk" applications were categorized into the training set.
+Using the 75/25% method to split the data for training vs. testing, 51,352 "low risk" and 246 "high risk" applications were categorized into the training set.
 
 ![Training Data](https://user-images.githubusercontent.com/108476566/204307022-0c34901d-e235-4ffb-be6a-cee18aea8a72.png)
 
 Deliverable 1: Use Resampling Models to Predict Credit Risk
 Oversampling
-RandomOverSampler Model randomly selects from the minority class and adds it to the training set until both classifications are equal. The results classified 51,366 records each as High Risk and Low Risk.
+RandomOverSampler Model randomly selects from the minority class and adds it to the training set until both classifications are equal. The results classified 51,352 records each as High Risk and Low Risk.
 
 ![Oversample count](https://user-images.githubusercontent.com/108476566/204307636-ec39f634-7cab-4ff8-a8b6-8e7a96da6c3e.png)
 
