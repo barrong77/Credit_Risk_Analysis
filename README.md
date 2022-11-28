@@ -29,7 +29,7 @@ Balanced accuracy score: 65%.
 ![balanced accuracy score](https://user-images.githubusercontent.com/108476566/204317225-6f7e6182-243a-410d-8010-81a6399a3047.png)
 
 
-"Low Risk" had a precision rate of 100% and recall at 62%.
+"Low Risk" had a precision rate of 100% and recall at 68%.
 
 ![predicted low risk](https://user-images.githubusercontent.com/108476566/204317952-03a7644a-3268-45c3-afc6-638e36db7896.png)
 
