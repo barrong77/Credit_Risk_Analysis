@@ -56,8 +56,10 @@ SMOTEENN (Synthetic Minority Oversampling Technique + Edited NearestNeighbors) M
 ![Smoteen](https://user-images.githubusercontent.com/108476566/204321671-ed18cc6b-acb1-49c8-b972-262b4f93d560.png)
 
 
-The balanced accuracy score improved to 64.5% when using a combined sampling model.
-SMOTEENNacc
+The balanced accuracy score improved to 51% when using a combined sampling model.
+
+![calculated balance accuracy](https://user-images.githubusercontent.com/108476566/204322323-add194c9-6e9f-4535-8e2b-698cada0e388.png)
+
 
 The "High Risk" precision rate did not improve was only 1%, however the recall increased to 72% giving this model an F1 score of 2%.
 "Low Risk" still showed a precision rate of 100% with the recall at 57%.
