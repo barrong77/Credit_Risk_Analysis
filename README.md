@@ -34,20 +34,11 @@ Balanced accuracy score: 65%.
 ![predicted low risk](https://user-images.githubusercontent.com/108476566/204317952-03a7644a-3268-45c3-afc6-638e36db7896.png)
 
 
-
-SMOTE (Synthetic Minority Oversampling Technique) Model, like RandomOverSampler increases the size of the minority class by creating new values based on the value of the closest neighbors to the minority class instead of random selection.
-
-The balanced accuracy score improved slightly to 65.1%.
-smoteacc
-
-Like RandomOverSampler, the "High Risk" precision rate again was only 1% with the recall degraded to 61% giving this model an F1 score of 2%.
-"Low Risk" had a precision rate of 100% and an improved recall at 69%.
-smotecm
-
-smoteclass
-
 Undersampling
 ClusterCentroids Model, an algorithm that identifies clusters of the majority class to generate synthetic data points that are representative of the clusters. The model classified 246 records each as High Risk and Low Risk.
+
+![image](https://user-images.githubusercontent.com/108476566/204319158-6d2c34e9-9cce-4dca-9f80-47faa158fd11.png)
+
 
 undersamplecount
 
