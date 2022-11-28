@@ -43,8 +43,8 @@ ClusterCentroids Model, an algorithm that identifies clusters of the majority cl
 Balanced accuracy score was lower than the oversampling models at 54.5%.
 underacc
 
-The "High Risk" precision rate again was only at 1% with the recall at 69% giving this model an F1 score of 1%.
-"Low Risk" had a precision rate of 100% and with a lower recall at 40% compared to the oversampling models.
+The "High Risk" precision rate again was only at 1% with the recall at 59% giving this model an F1 score of 1%.
+"Low Risk" had a precision rate of 99% and with a lower recall at 44% compared to the oversampling models.
 
 ![highrisklowrisk](https://user-images.githubusercontent.com/108476566/204320745-0f4dfb59-fad7-4b0d-9f4a-a7ef81202fdc.png)
 
