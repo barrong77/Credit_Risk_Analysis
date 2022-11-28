@@ -25,6 +25,7 @@ RandomOverSampler Model randomly selects from the minority class and adds it to 
 ![Oversample count](https://user-images.githubusercontent.com/108476566/204307636-ec39f634-7cab-4ff8-a8b6-8e7a96da6c3e.png)
 
 Balanced accuracy score: 65%.
+
 ![balanced accuracy score](https://user-images.githubusercontent.com/108476566/204317225-6f7e6182-243a-410d-8010-81a6399a3047.png)
 
 
